@@ -117,12 +117,13 @@ nav.navbar.bootsnav {
 .wrap-sticky nav.navbar.bootsnav.sticked {background-color: #fff;box-shadow: 0 2px 5px rgba(0,0,0,.2);}
 /*.navbar-brand*/
 .navbar-header a.navbar-brand,.navbar-header a.navbar-brand:hover,.navbar-header a.navbar-brand:focus {
-    display: inline-block;
+   
     color: #616060;
     font-size: 24px;
     font-weight: 500;
-    padding: 45px 0px;
+    padding: 35px 0px;
     text-transform:capitalize;
+    height: 10px;
 }
 .navbar-header a.navbar-brand span{display: inline-block;color:#e99c2e;text-transform:capitalize;}
 
@@ -1011,3 +1012,22 @@ span.feature-review {margin-left: 10px;}
         grid-template-columns: 1fr;
       }
     }
+    .navbar-brand img {
+  height: 60px;         /* Adjust height as per your navbar size */
+  margin-top: -20px; 
+     /* Optional: fine-tune alignment */
+}
+
+.navbar {
+  padding: 10px 0;      /* Ensure vertical centering */
+}
+
+.navbar-nav > li > a {
+  line-height: 60px;    /* Match logo height */
+  padding: 0 25px;
+  text-transform: capitalize;
+  font-weight: 500;
+}
+
+
+    
